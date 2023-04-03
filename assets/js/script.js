@@ -10,7 +10,7 @@ let count=3;
 btn.addEventListener('click', ()=>{
     count--;
     num.innerHTML=count;
-    inp.value='';
+    
     if(inp.value==random){
         alert('Qazandiniz)');
     }
@@ -23,4 +23,6 @@ btn.addEventListener('click', ()=>{
     else{
         alert('Daxil olunan eded kicikdir!');
     }
+
+    inp.value='';
 })
